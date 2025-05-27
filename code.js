@@ -64,3 +64,41 @@ console.log(citizenCheck);
 
 let testvalue = (0 || 1 || 2 || 3)
 console.log(testvalue); 
+
+
+for (let i = 0; i <= 5; i++) {
+    console.log(i);
+}
+
+let fruits = ["apple", "banana", "cherry"];
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+let sth = 0;
+while (sth < 20) {
+    console.log(sth);
+    sth++;
+}
+
+let numberList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let element of numberList) {
+    console.log(element);
+}
+
+num1 = 22;
+num2 = 10;
+
+function maxNumber(a, b) {
+    return a > b ? a : b;
+}
+console.log(maxNumber(num1, num2));
+
+
+let numberArray = [1,2,4,5,2,3,4,5,6,7,8,9,10,17];
+for (let i of numberArray) {
+    if (i % 2 === 0) {
+        continue;
+    } else {
+    console.log(i)}
+}
